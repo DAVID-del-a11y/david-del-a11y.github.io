@@ -1,0 +1,1602 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>David Edi Saputra | IT & Cyber Security Enthusiast</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500;600&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+
+            theme: {
+                extend: {
+                    colors: {
+                        darkbg: '#0B0F19',
+                        darkcard: '#111827',
+                        darkborder: '#1F2937',
+                        cyanaccent: '#06B6D4',
+                        blueaccent: '#3B82F6'
+                    },
+
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        mono: ['Fira Code', 'monospace']
+                    },
+
+                    animation: {
+                        'pulse-slow':
+                            'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+
+                        'float':
+                            'float 6s ease-in-out infinite'
+                    },
+
+                    keyframes: {
+                        float: {
+                            '0%, 100%': {
+                                transform: 'translateY(0px)'
+                            },
+
+                            '50%': {
+                                transform: 'translateY(-10px)'
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+
+        .glass-card {
+            background: rgba(17, 24, 39, 0.7);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+        .glass-nav {
+            background: rgba(11, 15, 25, 0.8);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+        }
+
+        .text-gradient {
+            background: linear-gradient(135deg, #06B6D4 0%, #3B82F6 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .glow-effect {
+            box-shadow: 0 0 25px -5px rgba(6, 182, 212, 0.3);
+        }
+
+        .glow-effect:hover {
+            box-shadow: 0 0 35px 0px rgba(59, 130, 246, 0.5);
+        }
+
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+
+    </style>
+</head>
+
+
+<body class="bg-darkbg text-gray-200 font-sans antialiased overflow-x-hidden">
+
+
+<!-- =====================================================
+     NAVBAR
+===================================================== -->
+
+<nav class="fixed top-0 left-0 w-full z-50 glass-nav border-b border-gray-800">
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <div class="flex items-center justify-between h-20">
+
+            <a href="#" class="flex items-center space-x-3">
+
+                <div
+                    class="w-10 h-10 rounded-xl bg-gradient-to-br from-cyanaccent to-blueaccent flex items-center justify-center font-bold text-darkbg text-xl">
+
+                    DS
+
+                </div>
+
+                <span class="font-bold text-lg text-white">
+
+                    David Edi<span class="text-cyanaccent">.</span>
+
+                </span>
+
+            </a>
+
+
+            <div class="hidden md:flex items-center space-x-8 text-sm font-medium">
+
+                <a href="#about"
+                    class="text-gray-300 hover:text-cyanaccent transition">
+
+                    Tentang
+
+                </a>
+
+                <a href="#skills"
+                    class="text-gray-300 hover:text-cyanaccent transition">
+
+                    Keahlian
+
+                </a>
+
+                <a href="#projects"
+                    class="text-gray-300 hover:text-cyanaccent transition">
+
+                    Proyek
+
+                </a>
+
+                <a href="#experience"
+                    class="text-gray-300 hover:text-cyanaccent transition">
+
+                    Pengalaman
+
+                </a>
+
+                <a href="#certifications"
+                    class="text-gray-300 hover:text-cyanaccent transition">
+
+                    Sertifikasi
+
+                </a>
+
+                <a href="#contact"
+                    class="px-5 py-2.5 rounded-full bg-gradient-to-r from-cyanaccent to-blueaccent text-darkbg font-semibold">
+
+                    Hubungi Saya
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</nav>
+
+
+
+<!-- =====================================================
+     HERO
+===================================================== -->
+
+<section class="relative min-h-screen flex items-center justify-center pt-24 pb-12">
+
+    <div class="absolute top-1/4 left-1/4 w-96 h-96
+                bg-cyanaccent/10 rounded-full blur-3xl
+                animate-pulse-slow"></div>
+
+    <div class="absolute bottom-1/4 right-1/4 w-96 h-96
+                bg-blueaccent/10 rounded-full blur-3xl
+                animate-pulse-slow"></div>
+
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+
+
+            <!-- LEFT -->
+
+            <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+
+                <div
+                    class="inline-flex items-center gap-2 px-4 py-2 rounded-full glass-card text-xs sm:text-sm font-mono text-cyanaccent">
+
+                    <span class="w-2 h-2 rounded-full bg-cyanaccent"></span>
+
+                    Open to Internship Opportunities
+
+                </div>
+
+
+                <h1
+                    class="text-4xl sm:text-6xl font-extrabold text-white tracking-tight">
+
+                    Halo, Saya
+
+                    <br>
+
+                    <span class="text-gradient">
+
+                        David Edi Saputra
+
+                    </span>
+
+                    👋
+
+                </h1>
+
+
+                <div
+                    class="text-lg sm:text-2xl font-mono text-gray-400 h-8">
+
+                    <span id="typing-text"></span>
+
+                </div>
+
+
+                <p
+                    class="text-gray-400 text-base sm:text-lg max-w-2xl leading-relaxed mx-auto lg:mx-0">
+
+                    Mahasiswa S1 Informatika Universitas Gunadarma
+                    dengan latar belakang Teknik Komputer dan Jaringan
+                    serta pengalaman sebagai IT Support / Teknisi Jaringan
+                    di Direktorat Sistem dan Teknologi Informasi
+                    Universitas Indonesia.
+
+                </p>
+
+
+                <div
+                    class="pt-4 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+
+                    <a href="#experience"
+                        class="px-8 py-3.5 rounded-xl bg-gradient-to-r from-cyanaccent to-blueaccent text-darkbg font-bold">
+
+                        <i class="fa-solid fa-briefcase mr-2"></i>
+
+                        Pengalaman
+
+                    </a>
+
+
+                    <a href="#contact"
+                        class="px-8 py-3.5 rounded-xl glass-card text-white font-semibold">
+
+                        Kontak Saya
+
+                    </a>
+
+                </div>
+
+
+                <div
+                    class="pt-6 flex items-center justify-center lg:justify-start space-x-6 text-gray-400">
+
+                    <a href="https://github.com/DAVID-del-a11y"
+                        target="_blank"
+                        class="hover:text-cyanaccent text-2xl">
+
+                        <i class="fa-brands fa-github"></i>
+
+                    </a>
+
+
+                    <a href="https://www.linkedin.com/in/david-edi-saputra/"
+                        target="_blank"
+                        class="hover:text-cyanaccent text-2xl">
+
+                        <i class="fa-brands fa-linkedin"></i>
+
+                    </a>
+
+
+                    <a href="mailto:davidedisaputra247@gmail.com"
+                        class="hover:text-cyanaccent text-2xl">
+
+                        <i class="fa-solid fa-envelope"></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- RIGHT -->
+
+            <div class="lg:col-span-5 flex justify-center">
+
+                <div class="relative w-72 h-72 sm:w-96 sm:h-96">
+
+                    <div
+                        class="absolute inset-0 rounded-3xl bg-gradient-to-tr from-cyanaccent/20 to-blueaccent/20 rotate-6 animate-float">
+                    </div>
+
+
+                    <div
+                        class="relative w-full h-full glass-card rounded-3xl p-6 flex flex-col justify-between border border-gray-700 shadow-2xl">
+
+                        <div
+                            class="flex items-center justify-between border-b border-gray-800 pb-4">
+
+                            <div class="flex space-x-2">
+
+                                <div class="w-3 h-3 rounded-full bg-red-500"></div>
+
+                                <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+
+                                <div class="w-3 h-3 rounded-full bg-green-500"></div>
+
+                            </div>
+
+                            <span class="font-mono text-xs text-gray-500">
+
+                                developer.py
+
+                            </span>
+
+                        </div>
+
+
+                        <div
+                            class="font-mono text-xs sm:text-sm text-gray-300 space-y-2 py-4">
+
+                            <p>
+
+                                <span class="text-blueaccent">class</span>
+                                <span class="text-cyanaccent">Developer</span>:
+
+                            </p>
+
+                            <p class="pl-4">
+
+                                <span class="text-purple-400">def</span>
+                                <span class="text-blue-300">__init__</span>(self):
+
+                            </p>
+
+                            <p class="pl-8">
+
+                                self.name =
+                                <span class="text-emerald-400">
+                                    "David Edi Saputra"
+                                </span>
+
+                            </p>
+
+                            <p class="pl-8">
+
+                                self.role =
+                                <span class="text-emerald-400">
+                                    "IT & Cyber Security"
+                                </span>
+
+                            </p>
+
+                            <p class="pl-8">
+
+                                self.focus = [
+
+                                <span class="text-emerald-400">
+                                    "Network"
+                                </span>,
+
+                                <span class="text-emerald-400">
+                                    "Cyber Security"
+                                </span>,
+
+                                <span class="text-emerald-400">
+                                    "IT Support"
+                                </span>
+
+                                ]
+
+                            </p>
+
+                            <p class="pl-4">
+
+                                <span class="text-purple-400">return</span>
+
+                                <span class="text-emerald-400">
+                                    "Keep Learning"
+                                </span>
+
+                            </p>
+
+                        </div>
+
+
+                        <div
+                            class="flex items-center justify-between pt-4 border-t border-gray-800 font-mono text-xs text-gray-400">
+
+                            <span>
+
+                                <i class="fa-solid fa-circle text-emerald-500 text-[8px]"></i>
+
+                                Ready to learn
+
+                            </span>
+
+                            <span>
+
+                                UTF-8
+
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     ABOUT
+===================================================== -->
+
+<section id="about" class="py-20">
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <div class="text-center max-w-3xl mx-auto mb-16">
+
+            <h2 class="text-xs font-mono text-cyanaccent uppercase tracking-widest mb-2">
+
+                Tentang Saya
+
+            </h2>
+
+            <p class="text-3xl sm:text-4xl font-extrabold text-white">
+
+                Profil Profesional
+
+            </p>
+
+        </div>
+
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+
+            <div class="glass-card p-8 rounded-2xl">
+
+                <div
+                    class="w-14 h-14 rounded-xl bg-cyanaccent/10 text-cyanaccent flex items-center justify-center text-2xl mb-6">
+
+                    <i class="fa-solid fa-graduation-cap"></i>
+
+                </div>
+
+                <h3 class="text-xl font-bold text-white mb-3">
+
+                    Pendidikan
+
+                </h3>
+
+                <p class="text-cyanaccent text-sm font-semibold mb-2">
+
+                    Universitas Gunadarma
+
+                </p>
+
+                <p class="text-gray-400 text-sm leading-relaxed">
+
+                    S1 Informatika. Aktif mengembangkan kemampuan
+                    pemrograman, jaringan komputer, teknologi informasi,
+                    dan Cyber Security.
+
+                </p>
+
+            </div>
+
+
+            <div class="glass-card p-8 rounded-2xl">
+
+                <div
+                    class="w-14 h-14 rounded-xl bg-blueaccent/10 text-blueaccent flex items-center justify-center text-2xl mb-6">
+
+                    <i class="fa-solid fa-network-wired"></i>
+
+                </div>
+
+                <h3 class="text-xl font-bold text-white mb-3">
+
+                    IT & Networking
+
+                </h3>
+
+                <p class="text-blueaccent text-sm font-semibold mb-2">
+
+                    Technical Foundation
+
+                </p>
+
+                <p class="text-gray-400 text-sm leading-relaxed">
+
+                    Memiliki dasar jaringan komputer, TCP/IP,
+                    subnetting, Cisco Packet Tracer, Linux,
+                    troubleshooting hardware dan software.
+
+                </p>
+
+            </div>
+
+
+            <div class="glass-card p-8 rounded-2xl">
+
+                <div
+                    class="w-14 h-14 rounded-xl bg-purple-500/10 text-purple-400 flex items-center justify-center text-2xl mb-6">
+
+                    <i class="fa-solid fa-shield-halved"></i>
+
+                </div>
+
+                <h3 class="text-xl font-bold text-white mb-3">
+
+                    Cyber Security
+
+                </h3>
+
+                <p class="text-purple-400 text-sm font-semibold mb-2">
+
+                    Area of Interest
+
+                </p>
+
+                <p class="text-gray-400 text-sm leading-relaxed">
+
+                    Memiliki ketertarikan pada Cyber Security,
+                    Network Engineering, IT Support, dan
+                    keamanan infrastruktur IT.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     SKILLS
+===================================================== -->
+
+<section id="skills" class="py-20 bg-darkcard/50">
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <div class="text-center max-w-3xl mx-auto mb-16">
+
+            <h2 class="text-xs font-mono text-cyanaccent uppercase tracking-widest mb-2">
+
+                Keahlian
+
+            </h2>
+
+            <p class="text-3xl sm:text-4xl font-extrabold text-white">
+
+                Technical Skills
+
+            </p>
+
+        </div>
+
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+
+
+            <!-- NETWORKING -->
+
+            <div class="glass-card p-6 rounded-2xl">
+
+                <h3 class="font-bold text-lg text-white mb-6">
+
+                    <i class="fa-solid fa-network-wired text-cyanaccent mr-2"></i>
+
+                    Networking
+
+                </h3>
+
+                <div class="space-y-4 text-sm text-gray-300">
+
+                    <p>TCP/IP</p>
+
+                    <p>Subnetting</p>
+
+                    <p>Cisco Packet Tracer</p>
+
+                    <p>Network Troubleshooting</p>
+
+                </div>
+
+            </div>
+
+
+            <!-- IT SUPPORT -->
+
+            <div class="glass-card p-6 rounded-2xl">
+
+                <h3 class="font-bold text-lg text-white mb-6">
+
+                    <i class="fa-solid fa-screwdriver-wrench text-blueaccent mr-2"></i>
+
+                    IT Support
+
+                </h3>
+
+                <div class="space-y-4 text-sm text-gray-300">
+
+                    <p>Hardware Troubleshooting</p>
+
+                    <p>Software Troubleshooting</p>
+
+                    <p>System Administration</p>
+
+                    <p>IT Infrastructure</p>
+
+                </div>
+
+            </div>
+
+
+            <!-- PROGRAMMING -->
+
+            <div class="glass-card p-6 rounded-2xl">
+
+                <h3 class="font-bold text-lg text-white mb-6">
+
+                    <i class="fa-solid fa-code text-purple-400 mr-2"></i>
+
+                    Programming
+
+                </h3>
+
+                <div class="space-y-4 text-sm text-gray-300">
+
+                    <p>Python</p>
+
+                    <p>HTML</p>
+
+                    <p>CSS</p>
+
+                    <p>JavaScript</p>
+
+                </div>
+
+            </div>
+
+
+            <!-- TOOLS -->
+
+            <div class="glass-card p-6 rounded-2xl">
+
+                <h3 class="font-bold text-lg text-white mb-6">
+
+                    <i class="fa-solid fa-terminal text-emerald-400 mr-2"></i>
+
+                    Tools & OS
+
+                </h3>
+
+                <div class="space-y-4 text-sm text-gray-300">
+
+                    <p>Linux</p>
+
+                    <p>Git</p>
+
+                    <p>GitHub</p>
+
+                    <p>Microsoft Office</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     PROJECTS
+===================================================== -->
+
+<section id="projects" class="py-20">
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <div class="text-center max-w-3xl mx-auto mb-12">
+
+            <h2 class="text-xs font-mono text-cyanaccent uppercase tracking-widest mb-2">
+
+                Portfolio
+
+            </h2>
+
+            <p class="text-3xl sm:text-4xl font-extrabold text-white">
+
+                Proyek & Eksplorasi
+
+            </p>
+
+        </div>
+
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+
+            <!-- PROJECT 1 -->
+
+            <div class="glass-card rounded-2xl p-6">
+
+                <div class="text-cyanaccent text-4xl mb-5">
+
+                    <i class="fa-solid fa-network-wired"></i>
+
+                </div>
+
+                <h3 class="text-xl font-bold text-white mb-3">
+
+                    Network Infrastructure
+
+                </h3>
+
+                <p class="text-gray-400 text-sm leading-relaxed mb-5">
+
+                    Eksplorasi konfigurasi jaringan menggunakan
+                    Cisco Packet Tracer dengan penerapan konsep
+                    routing, TCP/IP, dan subnetting.
+
+                </p>
+
+                <div class="flex flex-wrap gap-2">
+
+                    <span class="px-3 py-1 bg-gray-800 rounded text-xs">
+
+                        Cisco
+
+                    </span>
+
+                    <span class="px-3 py-1 bg-gray-800 rounded text-xs">
+
+                        TCP/IP
+
+                    </span>
+
+                    <span class="px-3 py-1 bg-gray-800 rounded text-xs">
+
+                        Networking
+
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <!-- PROJECT 2 -->
+
+            <div class="glass-card rounded-2xl p-6">
+
+                <div class="text-blueaccent text-4xl mb-5">
+
+                    <i class="fa-solid fa-microchip"></i>
+
+                </div>
+
+                <h3 class="text-xl font-bold text-white mb-3">
+
+                    GPU Acceleration Research
+
+                </h3>
+
+                <p class="text-gray-400 text-sm leading-relaxed mb-5">
+
+                    Benchmark perbandingan kinerja operasi matriks
+                    antara CPU menggunakan NumPy dan GPU menggunakan
+                    CuPy/CUDA.
+
+                </p>
+
+                <div class="flex flex-wrap gap-2">
+
+                    <span class="px-3 py-1 bg-gray-800 rounded text-xs">
+
+                        Python
+
+                    </span>
+
+                    <span class="px-3 py-1 bg-gray-800 rounded text-xs">
+
+                        NumPy
+
+                    </span>
+
+                    <span class="px-3 py-1 bg-gray-800 rounded text-xs">
+
+                        CuPy
+
+                    </span>
+
+                    <span class="px-3 py-1 bg-gray-800 rounded text-xs">
+
+                        CUDA
+
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <!-- PROJECT 3 -->
+
+            <div class="glass-card rounded-2xl p-6">
+
+                <div class="text-purple-400 text-4xl mb-5">
+
+                    <i class="fa-solid fa-globe"></i>
+
+                </div>
+
+                <h3 class="text-xl font-bold text-white mb-3">
+
+                    Personal Portfolio
+
+                </h3>
+
+                <p class="text-gray-400 text-sm leading-relaxed mb-5">
+
+                    Website portfolio pribadi untuk menampilkan
+                    pengalaman, sertifikasi, proyek, dan kemampuan
+                    di bidang teknologi informasi.
+
+                </p>
+
+                <div class="flex flex-wrap gap-2">
+
+                    <span class="px-3 py-1 bg-gray-800 rounded text-xs">
+
+                        HTML
+
+                    </span>
+
+                    <span class="px-3 py-1 bg-gray-800 rounded text-xs">
+
+                        CSS
+
+                    </span>
+
+                    <span class="px-3 py-1 bg-gray-800 rounded text-xs">
+
+                        JavaScript
+
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     EXPERIENCE
+===================================================== -->
+
+<section id="experience" class="py-20 bg-darkcard/50">
+
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <div class="text-center max-w-3xl mx-auto mb-16">
+
+            <h2 class="text-xs font-mono text-cyanaccent uppercase tracking-widest mb-2">
+
+                Rekam Jejak
+
+            </h2>
+
+            <p class="text-3xl sm:text-4xl font-extrabold text-white">
+
+                Pengalaman
+
+            </p>
+
+        </div>
+
+
+        <div class="space-y-8">
+
+
+            <!-- UI -->
+
+            <div class="glass-card p-7 rounded-2xl border-l-4 border-cyanaccent">
+
+                <div class="flex flex-col md:flex-row md:justify-between gap-3">
+
+                    <div>
+
+                        <h3 class="text-xl font-bold text-white">
+
+                            IT Support / Teknisi Jaringan
+
+                        </h3>
+
+                        <p class="text-cyanaccent font-medium">
+
+                            Direktorat Sistem dan Teknologi Informasi
+                            Universitas Indonesia (DSTI UI)
+
+                        </p>
+
+                    </div>
+
+                    <span class="text-sm font-mono text-gray-400">
+
+                        Jul 2024 – Sep 2024
+
+                    </span>
+
+                </div>
+
+
+                <ul class="mt-5 space-y-3 text-sm text-gray-400">
+
+                    <li>
+
+                        <i class="fa-solid fa-check text-cyanaccent mr-2"></i>
+
+                        Melakukan instalasi dan konfigurasi jaringan komputer.
+
+                    </li>
+
+                    <li>
+
+                        <i class="fa-solid fa-check text-cyanaccent mr-2"></i>
+
+                        Menangani troubleshooting perangkat keras dan perangkat lunak.
+
+                    </li>
+
+                    <li>
+
+                        <i class="fa-solid fa-check text-cyanaccent mr-2"></i>
+
+                        Membantu pemeliharaan sistem dan perangkat pengguna.
+
+                    </li>
+
+                    <li>
+
+                        <i class="fa-solid fa-check text-cyanaccent mr-2"></i>
+
+                        Membantu proses pemeliharaan perangkat dan infrastruktur IT.
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <!-- ORGANIZATION -->
+
+            <div class="glass-card p-7 rounded-2xl border-l-4 border-blueaccent">
+
+                <div class="flex flex-col md:flex-row md:justify-between gap-3">
+
+                    <div>
+
+                        <h3 class="text-xl font-bold text-white">
+
+                            Ketua Divisi Acara
+
+                        </h3>
+
+                        <p class="text-blueaccent font-medium">
+
+                            Gathering Teknik Informatika Angkatan 25
+
+                        </p>
+
+                    </div>
+
+                    <span class="text-sm font-mono text-gray-400">
+
+                        2025
+
+                    </span>
+
+                </div>
+
+
+                <ul class="mt-5 space-y-3 text-sm text-gray-400">
+
+                    <li>
+
+                        <i class="fa-solid fa-check text-blueaccent mr-2"></i>
+
+                        Mengkoordinasikan pelaksanaan kegiatan mahasiswa.
+
+                    </li>
+
+                    <li>
+
+                        <i class="fa-solid fa-check text-blueaccent mr-2"></i>
+
+                        Memimpin tim dalam perencanaan dan pelaksanaan acara.
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <!-- RESEARCH -->
+
+            <div class="glass-card p-7 rounded-2xl border-l-4 border-purple-400">
+
+                <div class="flex flex-col md:flex-row md:justify-between gap-3">
+
+                    <div>
+
+                        <h3 class="text-xl font-bold text-white">
+
+                            Riset Mandiri Akselerasi GPU
+
+                        </h3>
+
+                        <p class="text-purple-400 font-medium">
+
+                            Proyek Komputasi Berkinerja Tinggi
+
+                        </p>
+
+                    </div>
+
+                    <span class="text-sm font-mono text-gray-400">
+
+                        2026
+
+                    </span>
+
+                </div>
+
+
+                <p class="mt-5 text-sm text-gray-400 leading-relaxed">
+
+                    Mengembangkan benchmark perbandingan kinerja operasi
+                    matriks aljabar linier antara eksekusi CPU murni
+                    menggunakan NumPy dan eksekusi parallel GPU
+                    menggunakan CuPy/CUDA.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     CERTIFICATIONS
+===================================================== -->
+
+<section id="certifications" class="py-20">
+
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <div class="text-center max-w-3xl mx-auto mb-16">
+
+            <h2 class="text-xs font-mono text-cyanaccent uppercase tracking-widest mb-2">
+
+                Credentials
+
+            </h2>
+
+            <p class="text-3xl sm:text-4xl font-extrabold text-white">
+
+                Sertifikasi & Training
+
+            </p>
+
+        </div>
+
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+
+            <!-- CERT 1 -->
+
+            <div class="glass-card p-6 rounded-2xl flex gap-5">
+
+                <div
+                    class="w-14 h-14 shrink-0 rounded-xl bg-cyanaccent/10 text-cyanaccent flex items-center justify-center text-2xl">
+
+                    <i class="fa-solid fa-shield-halved"></i>
+
+                </div>
+
+                <div>
+
+                    <h3 class="font-bold text-white">
+
+                        Ethical Hacker
+
+                    </h3>
+
+                    <p class="text-sm text-cyanaccent mt-1">
+
+                        Cisco Networking Academy
+
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- CERT 2 -->
+
+            <div class="glass-card p-6 rounded-2xl flex gap-5">
+
+                <div
+                    class="w-14 h-14 shrink-0 rounded-xl bg-blueaccent/10 text-blueaccent flex items-center justify-center text-2xl">
+
+                    <i class="fa-solid fa-certificate"></i>
+
+                </div>
+
+                <div>
+
+                    <h3 class="font-bold text-white">
+
+                        Certificate of Competency
+
+                    </h3>
+
+                    <p class="text-sm text-blueaccent mt-1">
+
+                        Computer and Network Engineering
+
+                    </p>
+
+                    <p class="text-xs text-gray-500 mt-1">
+
+                        BONET IT Solution Partner
+
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- CERT 3 -->
+
+            <div class="glass-card p-6 rounded-2xl flex gap-5">
+
+                <div
+                    class="w-14 h-14 shrink-0 rounded-xl bg-purple-500/10 text-purple-400 flex items-center justify-center text-2xl">
+
+                    <i class="fa-solid fa-language"></i>
+
+                </div>
+
+                <div>
+
+                    <h3 class="font-bold text-white">
+
+                        TOEFL ITP
+
+                    </h3>
+
+                    <p class="text-sm text-purple-400 mt-1">
+
+                        Score 607
+
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- CERT 4 -->
+
+            <div class="glass-card p-6 rounded-2xl flex gap-5">
+
+                <div
+                    class="w-14 h-14 shrink-0 rounded-xl bg-emerald-500/10 text-emerald-400 flex items-center justify-center text-2xl">
+
+                    <i class="fa-solid fa-network-wired"></i>
+
+                </div>
+
+                <div>
+
+                    <h3 class="font-bold text-white">
+
+                        Network Security Troubleshooting
+
+                    </h3>
+
+                    <p class="text-sm text-emerald-400 mt-1">
+
+                        WAN Networks
+
+                    </p>
+
+                    <p class="text-xs text-gray-500 mt-1">
+
+                        2025
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     EDUCATION
+===================================================== -->
+
+<section class="py-20 bg-darkcard/50">
+
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <div class="text-center mb-14">
+
+            <h2 class="text-xs font-mono text-cyanaccent uppercase tracking-widest mb-2">
+
+                Pendidikan
+
+            </h2>
+
+            <p class="text-3xl sm:text-4xl font-extrabold text-white">
+
+                Academic Background
+
+            </p>
+
+        </div>
+
+
+        <div class="space-y-6">
+
+
+            <div class="glass-card p-7 rounded-2xl">
+
+                <div class="flex flex-col md:flex-row md:justify-between">
+
+                    <div>
+
+                        <h3 class="text-xl font-bold text-white">
+
+                            Universitas Gunadarma
+
+                        </h3>
+
+                        <p class="text-cyanaccent">
+
+                            S1 Informatika
+
+                        </p>
+
+                    </div>
+
+                    <span class="text-sm text-gray-400">
+
+                        2025 – Present
+
+                    </span>
+
+                </div>
+
+                <p class="text-gray-400 text-sm mt-4">
+
+                    Fokus pada pengembangan teknologi informasi,
+                    dasar pemrograman, jaringan komputer,
+                    dan pengembangan keterampilan di bidang IT.
+
+                </p>
+
+            </div>
+
+
+            <div class="glass-card p-7 rounded-2xl">
+
+                <div class="flex flex-col md:flex-row md:justify-between">
+
+                    <div>
+
+                        <h3 class="text-xl font-bold text-white">
+
+                            SMK Harapan Bangsa
+
+                        </h3>
+
+                        <p class="text-blueaccent">
+
+                            Teknik Komputer dan Jaringan (TKJ)
+
+                        </p>
+
+                    </div>
+
+                    <span class="text-sm text-gray-400">
+
+                        2022 – 2025
+
+                    </span>
+
+                </div>
+
+                <p class="text-gray-400 text-sm mt-4">
+
+                    Mempelajari jaringan komputer, sistem operasi,
+                    troubleshooting perangkat, instalasi,
+                    konfigurasi, dan pemeliharaan perangkat komputer.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     CONTACT
+===================================================== -->
+
+<section id="contact" class="py-20">
+
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <div class="text-center mb-14">
+
+            <h2 class="text-xs font-mono text-cyanaccent uppercase tracking-widest mb-2">
+
+                Contact
+
+            </h2>
+
+            <p class="text-3xl sm:text-4xl font-extrabold text-white">
+
+                Mari Terhubung
+
+            </p>
+
+        </div>
+
+
+        <div class="grid md:grid-cols-3 gap-6">
+
+
+            <div class="glass-card p-6 rounded-2xl text-center">
+
+                <i class="fa-solid fa-envelope text-cyanaccent text-3xl mb-4"></i>
+
+                <h3 class="font-bold text-white mb-2">
+
+                    Email
+
+                </h3>
+
+                <p class="text-gray-400 text-sm">
+
+                    davidedisaputra247@gmail.com
+
+                </p>
+
+            </div>
+
+
+            <div class="glass-card p-6 rounded-2xl text-center">
+
+                <i class="fa-brands fa-linkedin text-blueaccent text-3xl mb-4"></i>
+
+                <h3 class="font-bold text-white mb-2">
+
+                    LinkedIn
+
+                </h3>
+
+                <a
+                    href="https://www.linkedin.com/in/david-edi-saputra/"
+                    target="_blank"
+                    class="text-gray-400 text-sm hover:text-blueaccent">
+
+                    David Edi Saputra
+
+                </a>
+
+            </div>
+
+
+            <div class="glass-card p-6 rounded-2xl text-center">
+
+                <i class="fa-brands fa-github text-purple-400 text-3xl mb-4"></i>
+
+                <h3 class="font-bold text-white mb-2">
+
+                    GitHub
+
+                </h3>
+
+                <a
+                    href="https://github.com/DAVID-del-a11y"
+                    target="_blank"
+                    class="text-gray-400 text-sm hover:text-purple-400">
+
+                    DAVID-del-a11y
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer class="py-8 border-t border-gray-800 text-center">
+
+    <p class="text-gray-500 text-sm">
+
+        © 2028 David Edi Saputra.
+        All Rights Reserved.
+
+    </p>
+
+</footer>
+
+
+
+<!-- =====================================================
+     JAVASCRIPT
+===================================================== -->
+
+<script>
+
+const roles = [
+    "Informatics Student",
+    "IT Support Enthusiast",
+    "Cyber Security Enthusiast",
+    "Network Engineering Enthusiast"
+];
+
+let roleIndex = 0;
+let charIndex = 0;
+let deleting = false;
+
+const typingText =
+    document.getElementById("typing-text");
+
+
+function typeEffect() {
+
+    const currentRole =
+        roles[roleIndex];
+
+
+    if (!deleting) {
+
+        typingText.textContent =
+            currentRole.substring(0, charIndex + 1);
+
+        charIndex++;
+
+    } else {
+
+        typingText.textContent =
+            currentRole.substring(0, charIndex - 1);
+
+        charIndex--;
+
+    }
+
+
+    let speed =
+        deleting ? 50 : 90;
+
+
+    if (!deleting &&
+        charIndex === currentRole.length) {
+
+        speed = 1800;
+
+        deleting = true;
+
+    }
+
+
+    else if (deleting &&
+        charIndex === 0) {
+
+        deleting = false;
+
+        roleIndex =
+            (roleIndex + 1) % roles.length;
+
+        speed = 500;
+
+    }
+
+
+    setTimeout(typeEffect, speed);
+
+}
+
+
+document.addEventListener(
+    "DOMContentLoaded",
+    typeEffect
+);
+
+</script>
+
+
+</body>
+
+</html>
